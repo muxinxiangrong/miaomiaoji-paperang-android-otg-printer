@@ -1,12 +1,11 @@
 # 喵喵机 OTG 打印 · Android App
 
-**v1.0** ｜ 免驱动，手机 USB OTG 直连就能把 Paperang 喵喵机 / 容大 RP 系列打出来。
+**v1.0** ｜ 免驱动，手机 USB OTG 直连就能把 Paperang 喵喵机 / 容大 RP 系列打出来(不一定)。
 
 打印机原本只认官方 App（蓝牙）或 Windows 驱动，本项目把整套私有协议逆向出来，
 用 Android 的 USB Host API 直接对打印机的批量端点下发帧数据。
 **不需要 root、不需要厂商驱动、不依赖蓝牙。**
-
-> 协议逆向的完整过程、证据链与踩坑记录见 **[喵喵机-OTG-打印驱动分析报告.md](../喵喵机-OTG-打印驱动分析报告.md)**。
+**纯粹的vibe coding作品，使用WorkBuddy通过Hy4 preview和DeepSeek V4.1 flash构建**
 
 ---
 
@@ -202,5 +201,5 @@ TsplUsbPrinter/app/src/main/java/com/tspl/usbprinter/
 
 ## 授权
 
-仅供非营利学习与研究使用。协议来自对官方驱动的逆向分析，
+仅供非营利学习与研究使用。
 喵喵机 / Paperang / Rongta 等商标归各自权利人所有。
