@@ -5,6 +5,7 @@
 打印机原本只认官方 App（蓝牙）或 Windows 驱动，本项目把整套私有协议逆向出来，
 用 Android 的 USB Host API 直接对打印机的批量端点下发帧数据。
 **不需要 root、不需要厂商驱动、不依赖蓝牙。**
+
 **纯粹的vibe coding作品，使用WorkBuddy通过Hy4 preview和DeepSeek V4.1 flash构建**
 
 ---
